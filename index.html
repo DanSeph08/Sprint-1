@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+            <meta charset="UTF-8">
+            <title>Encriptador de texto</title>
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <h1 class="logo"> <img src="img/Logo.png" alt="Logo del encriptador"> </h1>
+                <h2 class="title"> Encriptador de texto </h2>
+            </div>
+        </header>
+ 
+        <img id="wallpaper" src="img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt="Fondo de pantalla">
+
+        <main>
+
+            <div class="left">
+                <textarea class="text-input" placeholder="Ingrese su texto a encriptar"></textarea>
+            </div>
+
+            <div class="right">
+
+                <div class="elements">
+
+                    <img id="munheco" src="img/Muñeco.png" alt="Persona con diamante y lupa">
+                    <h2 id="texto-encontrado">Ningun mensaje fue encontrado</h2>
+                    <textarea class="texto-ingresado">Texto que desea encriptar o desencriptar</textarea>
+
+                </div>
+
+                <textarea class="texto-oculto"></textarea>
+                <button class="boton" type="button" name="button"
+                >Copiar</button><span class="copia"></span>
+                    
+            </div>
+
+            <section class="buttons"> 
+                <div class="advertencia">
+
+                        <img id="exclamacion" src="img/exclamation.svg" alt="signo exclamacion"><p>Solo letras minisculas y sin acentos</p>
+
+                </div>
+
+                <div>
+
+                    <button id="encriptar" type="button" onclick="codificar()">Encriptar</button>
+
+                    <button id="desencriptar" type="button" onclick="decodificar()">Desencriptar</button>
+
+                </div>
+
+            </section>
+        
+        </main>
+
+        <footer>
+
+            <div class="contact">
+
+                   <div>
+                        <a href="https://www.linkedin.com/in/danielpinzon08/" target="_blank"><img src="Img/linkedin.svg" class="logo1"></a>
+                    </div>
+
+                   <div>
+                        <a href="https://github.com/DanSeph08" target="_blank"><img src="Img/github.svg" class="logo2"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/dani0.8zaf/" target="_blank"><img src="Img/instagram-logo-svg-vector-for-print.svg" class="logo3"></a>
+                    </div>
+            </div>
+
+            <div>
+                
+                <p class="footer"> &copy; Copyright Daniel Pinzón - 2022 - Todos los derechos reservados</p> 
+
+            </div>
+
+            <script type="text/javascript" src="script.js"></script>
+
+        </footer>
