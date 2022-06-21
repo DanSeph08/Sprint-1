@@ -2,20 +2,19 @@
 <html lang="es">
     <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width" initial-scale="1.0">
             <title>Encriptador de texto</title>
             <link rel="stylesheet" href="css/reset.css">
             <link rel="stylesheet" href="css/styles.css">
+            <link rel="stylesheet" href="css/responsivo.css">
     </head>
-    <body>
+    <body background="img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt="Fondo de pantalla">>
         <header>
             <div>
                 <h1 class="logo"> <img src="img/Logo.png" alt="Logo del encriptador"> </h1>
                 <h2 class="title"> Encriptador de texto </h2>
             </div>
         </header>
-        <img id="wallpaper" src="img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt="Fondo de pantalla">
-
         <main>
             <div class="left">
                 <textarea id="text-input" placeholder="Ingrese su texto a encriptar"></textarea>
@@ -34,8 +33,8 @@
                         <img id="exclamacion" src="img/exclamation.svg" alt="signo exclamacion"><p>Solo letras minisculas y sin acentos</p>
                 </div>
                 <div>
-                    <button id="encriptar" type="button" onclick="codificar()">Encriptar</button>
-                    <button id="desencriptar" type="button" onclick="decodificar()">Desencriptar</button>
+                    <button class="encriptar" type="button" onclick="codificar()">Encriptar</button>
+                    <button class="desencriptar" type="button" onclick="decodificar()">Desencriptar</button>
                 </div>
             </section>
         </main>

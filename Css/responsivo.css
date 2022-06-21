@@ -1,0 +1,62 @@
+
+/*Responsivo*/
+
+@media (max-width:768px) {
+    .right{
+        left: 40%;
+        height: 100%;
+        top: 10%;   
+    }
+    
+    #munheco{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .left{
+        left: 2%;
+        height: 25%;
+        top: 28%;   
+    }
+    
+    .logo{
+        margin: 0 0 0 1%;
+    }
+    
+    .title{
+        padding-right: 55%; 
+    }
+    
+    .buttons{
+        left: 10%;
+        top: 60%;
+        width: 20%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .contact{
+        top: 70%;
+    }
+    
+    .encriptar{
+        width: 70%;
+        height: 55%;
+        margin-bottom: 5%;
+    }
+    
+    .desencriptar{
+        width: 70%;
+        height: 55%;
+        margin-top: 5%;
+    }
+    
+    #boton{
+        width: 40%;
+        height: 8%;
+        left: 25%;
+    }
+    
+    }

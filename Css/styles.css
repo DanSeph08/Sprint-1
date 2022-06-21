@@ -2,6 +2,11 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+}
 .logo{
     display: inline-block;
     position: absolute;
@@ -21,11 +26,6 @@
     color: #fff;
     padding-left: 250px;
     text-decoration: underline;
-}
-
-#wallpaper{
-    width: 100%;
-    height: 100%;
 }
 
 /*Left Main*/
@@ -80,9 +80,14 @@ main{
     top: 15%;
 }
 
+#munheco{
+    width: 100%;
+    height: 100%;
+}
+
 #texto-encontrado{
-    width: 88%;
-    margin: 5% 6%;
+    width: 100%;
+    padding-top: 10%;
     text-align: center;
     font-style: italic;
     font-size: 100%;
@@ -90,9 +95,10 @@ main{
 }
 
 #texto-ingresado{
-    margin: 5%;
-    width: 90%;
-    height: 20%;
+    margin: 3%;
+    width: 88%;
+    padding-top: 13%;
+    height: 35%;
     color: #03f;
     font-size: 85%;
     font-style: italic;
@@ -144,7 +150,7 @@ main{
     height: 10%;
     margin: 1%;
     top: 75%;
-    left: 10%;
+    left: 20%;
 }
 
 #exclamacion{
@@ -166,10 +172,9 @@ main{
     color: #fff;
 }
 
-#encriptar{
+.encriptar{
     top: 95%;
     padding: 1%;
-    width: 10%;
     height: 2%;
     background: #039;
     color: #fff;
@@ -179,18 +184,17 @@ main{
     box-shadow: 0 3px 2px 0 #999;
 }
 
-#encriptar:hover{
+.encriptar:hover{
     cursor: pointer;
 }
 
-#encriptar:active{
+.encriptar:active{
     transform: translateY(6px);
 }
 
-#desencriptar{
+.desencriptar{
     top: 95%;
     padding: 1%;
-    width: 13%;
     height: 2%;
     background: #039;
     color: #fff;
@@ -200,11 +204,11 @@ main{
     box-shadow: 0 3px 2px 0 #999;
 }
 
-#desencriptar:hover{
+.desencriptar:hover{
     cursor: pointer;
 }
 
-#desencriptar:active{
+.desencriptar:active{
     transform: translateY(6px);
 }
 
@@ -213,7 +217,6 @@ main{
     left: 35%;
     top: 85%;
     margin: 5%;
-    width: 22%;
     height: 5%;
     background: #039;
     color: #fff;
@@ -238,7 +241,7 @@ main{
 /*Footer*/ 
 
 .contact{
-    top: 100%;
+    top: 75%;
     width: 60%;
     height: 5%;
     position: absolute;
@@ -252,8 +255,9 @@ main{
 }
 
 .logo2{
-     width: 5%;
+    width: 5%;
     height: 5%; 
+    background:#999
 }
 
 .logo3{
@@ -262,6 +266,9 @@ main{
 }
 
 .footer{
+    background-color: #fff;
     font-style: italic;
     font-weight: bold;
+    position: absolute;
+    top: 100%;
 }
