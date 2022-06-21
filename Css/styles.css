@@ -105,11 +105,11 @@ main{
 #texto-oculto{
     margin: 5%;
     width: 90%;
-    height: 80%;
+    height: 10%;
     font-size: 80%;
     text-align: center;
     background-color: #fff;
-    display: none;
+    display: initial;
     position: absolute;
 }
 
@@ -209,7 +209,7 @@ main{
 }
 
 #boton{
-    position: relative;
+    position: absolute;
     left: 35%;
     top: 85%;
     margin: 5%;
@@ -223,12 +223,16 @@ main{
     box-shadow: 0 3px 2px 0 #999;
 }
 
-.boton:hover{
+#boton:hover{
     cursor: pointer;
 }
 
-.boton:active{
+#boton:active{
     transform: translateY(6px);
+}
+
+.frase{
+    display: none;
 }
 
 /*Footer*/ 
